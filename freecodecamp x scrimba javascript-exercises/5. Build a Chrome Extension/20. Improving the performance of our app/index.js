@@ -18,5 +18,3 @@ for (let i = 0; i < myLeads.length; i++) {
 // 3. Render the listItems inside the unordered list using ulEl.innerHTML
 
 ulEl.innerHTML += listItems;
-
-
