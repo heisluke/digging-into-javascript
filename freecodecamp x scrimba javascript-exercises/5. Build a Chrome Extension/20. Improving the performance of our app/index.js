@@ -13,7 +13,8 @@ let listItems = "";
 
 for (let i = 0; i < myLeads.length; i++) {
     // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
-    list += "<li>" + myLeads[i] + "</li>"
+    listItems += "<li>" + myLeads[i] + "</li>"
+    console.log(listItems);
 }
 // 3. Render the listItems inside the unordered list using ulEl.innerHTML
 
