@@ -5,7 +5,9 @@ const ulEl = document.getElementById("ul-el")
 
 // Get the leads from the localStorage
 // Store it in a variable, leadsFromLocalStorage
+cantRefreshMe = JSON.parse(localStorage.getItem("myLeads"))
 // Log out the variable
+console.log(cantRefreshMe);
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
