@@ -11,9 +11,6 @@ if (leadsFromLocalStorage) {
     render(myLeads)
 }
 
-const tabs = [
-    {url: "https://www.linkedin.com/in/per-harald-borgen/"}
-]
 
 
 tabBtn.addEventListener("click", function(){
